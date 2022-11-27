@@ -23,8 +23,7 @@ const AllUser = () => {
 
   useEffect(() => {
     getAllUsers();
-  }, [])
-  
+  }, [])  
 
   const getAllUsers = async () => {
     const response = await getUsers();
